@@ -1,0 +1,30 @@
+{
+    "name" : "jaggi",
+    "version" : "0.1.2",
+    "description" : "aggregator",
+    "homepage" : "https://github.com/dfilatov/jaggi",
+    "keywords" : ["aggregator"],
+    "author" : "Dmitry Filatov <dfilatov@yandex-team.ru>",
+    "contributors" : [{
+        "name"  : "Dmitry Filatov",
+        "email" : "dfilatov@yandex-team.ru"
+    }],
+    "repository":{
+        "type" : "git",
+        "url"  : "http://github.com/dfilatov/jaggi.git"
+    },
+    "dependencies": {
+        "inherit"   : "1.0.4",
+        "vow"       : "0.1.1",
+        "jspath"    : ""
+    },
+    "devDependencies": {
+        "nodeunit" : "",
+        "istanbul" : ""
+    },
+    "main" : "index",
+    "engines" : { "node" : ">= 0.6.0" },
+    "scripts" : {
+        "test" : "./node_modules/istanbul/lib/cli.js test test-runner.js"
+    }
+}
